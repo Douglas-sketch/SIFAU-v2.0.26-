@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/>
+      <stop offset="50%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- Shield shape -->
+  <path d="M256 80 L380 140 C380 280 340 360 256 420 C172 360 132 280 132 140 Z" fill="url(#shield)" opacity="0.95"/>
+  <!-- Eye/search icon inside shield -->
+  <circle cx="256" cy="220" r="50" fill="none" stroke="#1e3a8a" stroke-width="12"/>
+  <circle cx="256" cy="220" r="20" fill="#1e3a8a"/>
+  <line x1="292" y1="256" x2="320" y2="284" stroke="#1e3a8a" stroke-width="12" stroke-linecap="round"/>
+  <!-- SIFAU text -->
+  <text x="256" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="48" fill="#1e3a8a" letter-spacing="6">SIFAU</text>
+  <!-- Bottom accent line -->
+  <rect x="180" y="385" width="152" height="4" rx="2" fill="#3b82f6" opacity="0.6"/>
+</svg>
