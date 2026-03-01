@@ -1,0 +1,19 @@
+{
+  "name": "SIFAU - Sistema Inteligente de Fiscalização e Atividades Urbanas",
+  "short_name": "SIFAU",
+  "description": "Plataforma de fiscalização urbana inteligente - Conectando cidadãos, fiscais e gerentes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e3a8a",
+  "theme_color": "#1e3a8a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["government", "utilities"]
+}
